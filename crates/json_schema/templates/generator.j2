@@ -1,0 +1,8 @@
+{% for st in structs %}
+#[derive(Debug)]
+pub struct {{st.name}} {
+  {% for filed in st.fields %}
+  {{ filed.name }}: {{ filed.type }},
+  {% endfor %}
+}
+{% endfor %}

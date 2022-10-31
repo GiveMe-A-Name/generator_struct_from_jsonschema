@@ -11,6 +11,20 @@
       "type": "string",
       "title": "2",
       "description": "last name"
+    },
+    "skill": {
+      "type": "object",
+      "title": "skill",
+      "properties": {
+        "sayHello": {
+          "type": "string",
+          "title": ""
+        },
+        "playGame": {
+          "type": "string",
+          "title": ""
+        }
+      }
     }
   }
 }
